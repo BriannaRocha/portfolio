@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a0a6e482.css",
-    "main.js": "/static/js/main.e6dfea35.js",
+    "main.css": "/static/css/main.3682b797.css",
+    "main.js": "/static/js/main.857b3b5b.js",
     "static/js/770.b477def6.chunk.js": "/static/js/770.b477def6.chunk.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/leaf.png": "/static/media/leaf.ff2616f664c8c0ceab91.png",
@@ -9,7 +9,7 @@
     "static/media/emotion.png": "/static/media/emotion.eabfc16e7a146ab15778.png",
     "static/media/suicide.png": "/static/media/suicide.9c86cd7138a398c45fa5.png",
     "static/media/codeEditor.png": "/static/media/codeEditor.1b585492490c8c1cace9.png",
-    "static/media/BriannaRocha_Resume.pdf": "/static/media/BriannaRocha_Resume.4fd239f26e30fcaabb63.pdf",
+    "static/media/BriannaRocha_Resume.pdf": "/static/media/BriannaRocha_Resume.7ebd9e9d0d67b860f451.pdf",
     "static/media/blog.png": "/static/media/blog.fb8ab7f271a937d5fc01.png",
     "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
@@ -18,13 +18,13 @@
     "static/media/avatar.svg": "/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
-    "main.a0a6e482.css.map": "/static/css/main.a0a6e482.css.map",
-    "main.e6dfea35.js.map": "/static/js/main.e6dfea35.js.map",
+    "main.3682b797.css.map": "/static/css/main.3682b797.css.map",
+    "main.857b3b5b.js.map": "/static/js/main.857b3b5b.js.map",
     "770.b477def6.chunk.js.map": "/static/js/770.b477def6.chunk.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0a6e482.css",
-    "static/js/main.e6dfea35.js"
+    "static/css/main.3682b797.css",
+    "static/js/main.857b3b5b.js"
   ]
 }
