@@ -405,11 +405,11 @@ button:focus {
   background-color: rgb(10, 4, 22);
   bottom: 0 !important;
   padding-top: 10px !important;
-  padding-bottom: 8px !important ;
+  padding-bottom: 8px !important;
 }
-.footer-copywright {
+/* .footer-copywright {
   text-align: center !important;
-}
+} */
 
 .footer-body {
   z-index: 1;
@@ -417,21 +417,22 @@ button:focus {
 }
 
 @media (max-width: 767px) {
-  .footer-copywright {
+  /* .footer-copywright {
     text-align: center !important;
-  }
+  } */
 
   .footer-body {
     text-align: center !important;
   }
 }
 
-.footer h3 {
+/* .footer h3 {
   font-size: 1em;
   color: white !important;
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
-}
+} */
+
 .footer-icons {
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
@@ -441,6 +442,7 @@ button:focus {
 .blockquote-footer {
   color: #a588c0 !important;
 }
+
 /* --------- */
 /* Projects */
 /* --------- */
