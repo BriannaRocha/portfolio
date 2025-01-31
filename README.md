@@ -7,7 +7,6 @@
 - Express.js
 - CSS3
 - VsCode
-- Vercel
 
 ## Credits
 
