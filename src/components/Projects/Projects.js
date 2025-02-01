@@ -25,7 +25,7 @@ function Projects() {
               imgPath={questCentral}
               isBlog={false}
               title="Quest Central 👾"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description="A full-stack video game tracking app built with JavaScript, Express, Node.js, MongoDB, and Mongoose. It features Google OAuth authentication, dynamic game list management, user-generated reviews, and profile customization. The app utilizes EJS for templating and follows a RESTful architecture to handle game data efficiently."
               ghLink="https://github.com/BriannaRocha/quest-central"
               demoLink="https://quest-central.fly.dev/"
             />
@@ -36,7 +36,7 @@ function Projects() {
               imgPath={bookworm}
               isBlog={false}
               title="Bookworm 📚"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              description="A full-stack social app built with React, Node.js, Express.js, and MongoDB, integrating the Open Library API to showcase a dynamic collection of books. It features JWT authentication, React Router for seamless navigation, and a personalized bookshelf for logged-in users. Profile users can add books, write reviews, and engage with the community through comments. As the Scrum Manager and Documenter, I led project organization, handled documentation, and implemented key features to bring the app to completion."
               ghLink="https://github.com/Richardzk17/bookworm-front-end"
               demoLink="https://bookwormhub.netlify.app/"
             />
@@ -47,7 +47,7 @@ function Projects() {
               imgPath={mindfulDose}
               isBlog={false}
               title="Mindful Dose 💊"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              description="A full-stack medication tracking app designed to help users log doses and maintain a medication history. Built with Python, JavaScript, PostgreSQL, and AWS, the app leverages Docker for containerization and YAML for configuration management. This project showcases my ability to develop reliable and intuitive solutions for healthcare and personal wellness."
               ghLink="https://github.com/BriannaRocha/mindful-dose"
               demoLink="https://mindful-dose.fly.dev/"              
             />
@@ -58,7 +58,7 @@ function Projects() {
               imgPath={memory}
               isBlog={false}
               title="Memory Matching: Simpson Edition 🧠"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              description="A fun and interactive memory matching card game featuring a Simpsons theme. Built with JavaScript, CSS3, and HTML5, the game challenges users to match pairs of cards while tracking moves and matches with counters. A timer adds an extra layer of excitement, and players can reset the game at any time. This project showcases my skills in creating engaging, browser-based games with dynamic functionality."
               ghLink="https://github.com/BriannaRocha/memory-matching"
               demoLink="https://mmcg-br.netlify.app/"
             />
@@ -69,7 +69,7 @@ function Projects() {
               imgPath={ticHalo}
               isBlog={false}
               title="Tic-Tac-Toe: Halo Edition ❌"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              description="As my first project, I created a Halo-themed Tic-Tac-Toe game using JavaScript, CSS3, and HTML5. This game integrates iconic Halo audio for an immersive experience, allowing players to enjoy a classic game with a unique twist. This project helped me establish a strong foundation in front-end development and game mechanics."
               ghLink="https://github.com/BriannaRocha/halo-ttt"
               demoLink="https://ttt-br.netlify.app/"
             />
