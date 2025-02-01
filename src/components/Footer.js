@@ -20,7 +20,7 @@ function Footer() {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiFillGithub />
+                <AiFillGithub size={27} />
               </a>
             </li>
             <li className="social-icons">
@@ -30,7 +30,7 @@ function Footer() {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <FaLinkedinIn />
+                <FaLinkedinIn size={23} />
               </a>
             </li>
           </ul>
