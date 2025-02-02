@@ -72,6 +72,7 @@ function NavBar() {
                   smooth={true}
                   duration={300}
                   className="nav-link"
+                  spy={true}
                   activeClass="nav-hover"
                   href="#home"
                   onClick={() => updateExpanded(false)}
@@ -93,6 +94,7 @@ function NavBar() {
                   duration={300}
                   offset={-80}
                   className="nav-link"
+                  spy={true}
                   activeClass="nav-hover"
                   href="#about"
                   onClick={() => updateExpanded(false)}
@@ -114,6 +116,7 @@ function NavBar() {
                   duration={300}
                   offset={-80}
                   className="nav-link"
+                  spy={true}
                   activeClass="nav-hover"
                   href="#projects"
                   onClick={() => updateExpanded(false)}

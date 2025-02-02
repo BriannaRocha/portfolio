@@ -205,17 +205,25 @@ button:focus {
   width: 100%;
 }
 
-.nav-link.nav-hover {
-  text-decoration: underline; 
-}
-
-.nav-link {
-  transition: all 0.2s ease-in-out;
-}
-
-.nav-hover {
-  text-decoration: underline;
+.nav-link.nav-hover,
+.nav-link.active {
   font-weight: bold;
+  position: relative;
+}
+
+.navbar-nav .nav-item .nav-link.nav-hover::after,
+.navbar-nav .nav-item .nav-link.active::after {
+  content: "";
+  position: relative;
+  display: block;
+  height: 5px;
+  width: 100%;
+  border-radius: 16px;
+  background: #c95bf5 !important;
+  bottom: 1px !important;
+  left: 0 !important;
+  z-index: 1 !important;
+  transition: all 0.3s ease-out 0s !important;
 }
 
 /* --------- */
