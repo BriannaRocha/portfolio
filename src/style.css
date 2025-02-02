@@ -205,6 +205,19 @@ button:focus {
   width: 100%;
 }
 
+.nav-link.nav-hover {
+  text-decoration: underline; 
+}
+
+.nav-link {
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
 /* --------- */
 /* Home section */
 /* --------- */

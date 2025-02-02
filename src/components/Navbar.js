@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import { Link } from "react-scroll";
-import { Link as RouterLink } from "react-router-dom";
+import { Link as RouterLink, useLocation, useNavigate } from "react-router-dom";
 
 
 import {
@@ -18,6 +18,19 @@ import { CgFileDocument } from "react-icons/cg";
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
+  
+  const location = useLocation();
+  const navigate = useNavigate();
+  
+  const handleScrollLinkClick = (section) => {
+    if (location.pathname !== "/") {
+      navigate("/", { replace: true });
+
+      setTimeout(() => {
+        document.getElementById(section)?.scrollIntoView({ behavior: "smooth" });
+      }, 100);
+    }
+  };
 
   function scrollHandler() {
     if (window.scrollY >= 20) {
@@ -53,44 +66,71 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Link 
-                to="home" 
-                smooth={true}
-                duration={300}
-                className="btn nav-link"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
-              </Link>
+              {location.pathname === "/" ? ( 
+                <Link 
+                  to="home" 
+                  smooth={true}
+                  duration={300}
+                  className="nav-link"
+                  activeClass="nav-hover"
+                  href="#home"
+                  onClick={() => updateExpanded(false)}
+                >
+                  <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+                </Link>
+              ) : (
+                <a href="#home" onClick={() => handleScrollLinkClick("home")} className="nav-link">
+                  <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+                </a>
+              )}
             </Nav.Item>
 
             <Nav.Item>
-              <Link
-                to="about"
-                smooth={true}
-                duration={300}
-                offset={-80}
-                className="btn nav-link"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
-              </Link>
+              {location.pathname === "/" ? ( 
+                <Link
+                  to="about"
+                  smooth={true}
+                  duration={300}
+                  offset={-80}
+                  className="nav-link"
+                  activeClass="nav-hover"
+                  href="#about"
+                  onClick={() => updateExpanded(false)}
+                >
+                  <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+                </Link>
+              ) : (
+                <a href="#about" onClick={() => handleScrollLinkClick("about")} className="nav-link">
+                  <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+                </a>
+              )}
             </Nav.Item>
 
             <Nav.Item>
-              <Link
-                to="projects"
-                smooth={true}
-                duration={300}
-                offset={-80}
-                className="btn nav-link"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Projects
-              </Link>
+            {location.pathname === "/" ? ( 
+                <Link
+                  to="projects"
+                  smooth={true}
+                  duration={300}
+                  offset={-80}
+                  className="nav-link"
+                  activeClass="nav-hover"
+                  href="#projects"
+                  onClick={() => updateExpanded(false)}
+                >
+                  <AiOutlineFundProjectionScreen
+                    style={{ marginBottom: "2px" }}
+                  />{" "}
+                  Projects
+                </Link>
+              ) : (
+                <a href="#projects" onClick={() => handleScrollLinkClick("projects")} className="nav-link">
+                  <AiOutlineFundProjectionScreen
+                    style={{ marginBottom: "2px" }}
+                  />{" "}
+                  Projects
+                </a>
+              )}
             </Nav.Item>
 
             <Nav.Item>
