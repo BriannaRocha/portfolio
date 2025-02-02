@@ -148,6 +148,7 @@ button:focus {
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
+    content: none !important;
   }
 }
 .navbar-brand {
@@ -394,9 +395,12 @@ button:focus {
 /* --------- */
 .footer {
   background-color: rgb(10, 4, 22);
-  padding-top: 5px !important;
-  padding-bottom: 5px !important;
+  padding-top: 3px !important;
+  padding-bottom: 3px !important;
   margin-top: auto;
+  background-color: #181a27 !important;
+  background-image: none !important;
+  z-index: 1;
 }
 
 /* .footer-copywright {
@@ -442,7 +446,9 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background-image: none !important;
+  background-color: #150f24;
+  z-index: 1;
 }
 
 .project-card {
@@ -540,8 +546,10 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background-image: none !important;
+  background-color: #13111b !important;
   color: white !important;
+  z-index: 1;
 }
 
 .tech-icons {
@@ -600,7 +608,7 @@ button:focus {
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background-image: none !important;
   color: white !important;
 }
 

@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
 import questCentral from "../../Assets/Projects/questCentral.png";
 import bookworm from "../../Assets/Projects/bookworm.png";
 import mindfulDose from "../../Assets/Projects/mindfulDose.png";
@@ -11,7 +10,6 @@ import ticHalo from "../../Assets/Projects/ticHalo.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
-      <Particle />
       <Container>
         <h1 className="project-heading">
           Featured <strong className="purple">Projects</strong> 👩‍💻
