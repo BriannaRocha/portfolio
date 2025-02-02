@@ -57,7 +57,7 @@ function Projects() {
             <ProjectCard
               imgPath={memory}
               isBlog={false}
-              title="Memory Matching: Simpson Edition 🧠"
+              title="Memory Matching: The Simpsons Edition 🧠"
               description="A fun and interactive memory matching card game featuring a Simpsons theme. Built with JavaScript, CSS3, and HTML5, the game challenges users to match pairs of cards while tracking moves and matches with counters. A timer adds an extra layer of excitement, and players can reset the game at any time. This project showcases my skills in creating engaging, browser-based games with dynamic functionality."
               ghLink="https://github.com/BriannaRocha/memory-matching"
               demoLink="https://mmcg-br.netlify.app/"
