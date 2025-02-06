@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d6e118b6.css",
-    "main.js": "/static/js/main.c69f2d8b.js",
+    "main.js": "/static/js/main.3b41bee6.js",
     "static/js/770.a36fb58a.chunk.js": "/static/js/770.a36fb58a.chunk.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
     "static/media/bookworm.png": "/static/media/bookworm.c27ab81f9ef92ad754c3.png",
@@ -11,16 +11,16 @@
     "static/media/questCentral.png": "/static/media/questCentral.defbd59e497e7465eba0.png",
     "static/media/mindfulDose.png": "/static/media/mindfulDose.88fd8ea92e34e8752c0a.png",
     "static/media/ticHalo.png": "/static/media/ticHalo.10b4b71c148c729fd6b9.png",
-    "static/media/BriannaRocha_Resume.pdf": "/static/media/BriannaRocha_Resume.7ebd9e9d0d67b860f451.pdf",
+    "static/media/Resume_BriannaRocha.pdf": "/static/media/Resume_BriannaRocha.8528c6ffeb6bf27cc652.pdf",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
     "main.d6e118b6.css.map": "/static/css/main.d6e118b6.css.map",
-    "main.c69f2d8b.js.map": "/static/js/main.c69f2d8b.js.map",
+    "main.3b41bee6.js.map": "/static/js/main.3b41bee6.js.map",
     "770.a36fb58a.chunk.js.map": "/static/js/770.a36fb58a.chunk.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d6e118b6.css",
-    "static/js/main.c69f2d8b.js"
+    "static/js/main.3b41bee6.js"
   ]
 }
